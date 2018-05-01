@@ -1,0 +1,55 @@
+body, html {
+	height: 100%
+}
+
+.hero {
+	display: flex;
+	background-image: url(computer-data.jpg);
+	/*background-image: url(fistbump.jpg);*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100%;
+	/*width:100%;*/
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	/*align-content: center;*/
+}
+
+.text {
+	padding-bottom:70px;
+	color: dimgray;
+	opacity: 0.8;
+	font-family: inconsolata;
+	margin:;
+}
+
+h1 {
+	font-size: 4vw;
+}
+
+.button {
+	border-radius: 50px;
+	padding: 20px 15px;
+	border: none;
+	background-color: dimgray;
+	color: white;
+	opacity: 0.8;
+	margin-top: 300px;
+	text-transform: uppercase;
+	font-size: 14px;
+	/*font-size: 1.15vw;*/
+	font-family: inconsolata;
+	transition: opacity 0.5s,
+				padding 0.5s;
+				/*transform 1s;*/
+}
+
+.button:hover {
+	/*transform: scale(1.1);*/
+	opacity: 1;
+	padding: 25px 20px;
+	cursor: pointer;
+}
